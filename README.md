@@ -19,6 +19,9 @@ d1.insertAdjacentHTML('afterend', '<div id="two">two</div>');
 
 ## .textcontent
 document.querySelector('#current-' + activePlayer).textcontent = dice; // can only change the value
+(or)
+var x = document.querySelector('#current-' + activePlayer).textContent
+console.log(x);
 document.querySelector('#curent-' + activePlayer).innerHTML = '<em>' + dice + '</em>';  // can inset HTMl value
 ex : activeplayer = 0 this can be  0 and 1 //  html id = #current- 1, id = #current - 2
 
