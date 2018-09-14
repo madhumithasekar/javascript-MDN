@@ -25,6 +25,9 @@ console.log(x);
 document.querySelector('#curent-' + activePlayer).innerHTML = '<em>' + dice + '</em>';  // can inset HTMl value
 ex : activeplayer = 0 this can be  0 and 1 //  html id = #current- 1, id = #current - 2
 
+## event
+// first the function returns then the events executes one by one
+
 ## add eventlistners
 addeventlistners finction has event and eventhandler
 multiple event and eventhandler can be use for single element.
