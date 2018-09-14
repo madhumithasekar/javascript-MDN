@@ -37,7 +37,17 @@ function btn()
 }
 
 without callimg btn function directly btn(); btn fiunction name is mention addlisterner will call the function btn instead of btn is called callback function 
+OR
 
+document.querySelector('.btn-roll').addEventListener('click', function()
+{
+//
+}); 
+this function is antonomous function cant be called outside 
+
+
+## getElementByID
+getElementById is fater than querySelector
 
 
 
