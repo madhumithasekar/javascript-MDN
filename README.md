@@ -25,6 +25,20 @@ console.log(x);
 document.querySelector('#curent-' + activePlayer).innerHTML = '<em>' + dice + '</em>';  // can inset HTMl value
 ex : activeplayer = 0 this can be  0 and 1 //  html id = #current- 1, id = #current - 2
 
+## add eventlistners
+addeventlistners finction has event and eventhandler
+multiple event and eventhandler can be use for single element.
+
+document.querySelector('.btn-roll').addEventListener('click', btn)
+
+function btn()
+{
+//
+}
+
+without callimg btn function directly btn(); btn fiunction name is mention addlisterner will call the function btn instead of btn is called callback function 
+
+
 
 
 
