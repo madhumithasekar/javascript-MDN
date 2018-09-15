@@ -52,6 +52,9 @@ this function is antonomous function cant be called outside
 ## getElementByID
 getElementById is fater than querySelector
 
+==, != is type coresion(23== '23') 23string is euql to number 23 is a type coresion
+!==, === is not type coresion
+
 
 
 
