@@ -55,6 +55,10 @@ getElementById is fater than querySelector
 ==, != is type coresion(23== '23') 23string is euql to number 23 is a type coresion
 !==, === is not type coresion
 
+## classList.add(), classList.remove()
+function myFunction() {
+    document.getElementById("myDIV").classList.remove("mystyle", "anotherClass", "thirdClass");
+}
 
 
 
