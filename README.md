@@ -52,13 +52,10 @@ this function is antonomous function cant be called outside
 ## getElementByID
 getElementById is fater than querySelector
 
-==, != is type coresion(23== '23') 23string is euql to number 23 is a type coresion
-!==, === is not type coresion
-
-## classList.add(), classList.remove()
-function myFunction() {
-    document.getElementById("myDIV").classList.remove("mystyle", "anotherClass", "thirdClass");
-}
-
-
-
+## classList.add
+ document.getElementById("myDIV").classList.add("mystyle", "anotherClass", "thirdClass");
+ 
+## classList.remove
+document.getElementById("myDIV").classList.add("mystyle", "anotherClass", "thirdClass");
+## classList.toggle
+document.getElementById("myDIV").classList.toggle("newClassName");
