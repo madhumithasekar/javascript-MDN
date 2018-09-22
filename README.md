@@ -59,3 +59,9 @@ getElementById is fater than querySelector
 document.getElementById("myDIV").classList.add("mystyle", "anotherClass", "thirdClass");
 ## classList.toggle
 document.getElementById("myDIV").classList.toggle("newClassName");
+
+## dry priniciple
+
+Don't repeat your self principle. i.e put a code inside the function and call the function in necessary area.
+
+
