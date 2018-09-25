@@ -94,6 +94,11 @@ pattern is constrctor // Person first letter is a capital letter
  with constructor reference 
  var jane = {'jane', 1993, 'designer'};
  even now the jane  can access the calculat function in person...... this is called inhertianace
+ therefore jane.calculate(); can be done.
+ 
+ 
+ In console. 
+ john  instanceof person   ==> true
  
 
 
