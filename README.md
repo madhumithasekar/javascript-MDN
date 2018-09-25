@@ -63,6 +63,42 @@ document.getElementById("myDIV").classList.toggle("newClassName");
 ## dry priniciple
 
 Don't repeat your self principle. i.e put a code inside the function and call the function in necessary area.
+#objects
+
+oject is everything in javascript
+
+primitives
+strings, numbers, boolean,null, undefined 
+
+ojects
+arrays
+function
+objects
+dates,wrapper for a number, strings,booleans
+
+objects inteacting with one another through methods and properties, use to store data
+
+#constructor and instance
+constructor 
+person
+name
+yearof birth
+job
+calculateage()  // is a blue print
+many instance can be created using single constructor 
+
+all the instance are defined  by the constructor and are accessable to calculate function()
+instance
+jane
+1993
+designer
+-----------------
+## inheritance
+
+nothing but a object is  based  on the other object, where one object get accessed to other properties and methods
+
+## javascript is a prototype language
+each ana every object has prototype that make possible of inheritance
 
 # Objects
 Everything in javascript is a objects
