@@ -64,4 +64,36 @@ document.getElementById("myDIV").classList.toggle("newClassName");
 
 Don't repeat your self principle. i.e put a code inside the function and call the function in necessary area.
 
+# Objects
+Everything in javascript is a objects
+
+primitives
+boolean, string, numbers, undefined, null
+
+Objects
+function, arrays, objects,m
+
+# constructor
+pattern is constrctor // Person first letter is a capital letter 
+ var Person = function(name, yearofbirth, job)
+ { this.name = name;
+  this.myearofbirth = yearofbirth;
+  this.job = job;
+ }
+ 
+ 
+ # inhertiance
+ In the above code the function cannot be called inside the object because if code is large and many function in a single ogject its tough.
+ 
+ Thereforth function can be decalare as usimg prototype
+ person.prototype.calculateage = function
+ {
+ console.log('');
+ }
+ 
+ with constructor reference 
+ var jane = {'jane', 1993, 'designer'};
+ even now the jane  can access the calculat function in person...... this is called inhertianace
+ 
+
 
